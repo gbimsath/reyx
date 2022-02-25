@@ -28,7 +28,7 @@ async def index_files(bot, query):
         return
 
     if lock.locked():
-        return await query.answer('Wait until previous process complete.', show_alert=True)
+        return await query.answer('පොඩ්ඩක් ඉදහන් කලින් process එක ඉවර වෙනකන්', show_alert=True)
     msg = query.message
 
     await query.answer('Processing...⏳', show_alert=True)
@@ -100,7 +100,7 @@ async def send_for_index(bot, message):
         try:
             link = (await bot.create_chat_invite_link(chat_id)).invite_link
         except ChatAdminRequired:
-            return await message.reply('Make sure iam an admin in the chat and have permission to invite users.')
+            return await message.reply('ඔක්කොටම කලින් මට admin දෙන්න channel එකේ නැත්නම්, මට users ලාට invite කරන්න බෑ 😉')
     else:
         link = f"@{message.forward_from_chat.username}"
     buttons = [
