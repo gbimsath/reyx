@@ -52,7 +52,7 @@ Read [this](https://telegram.dog/TeamEvamaria/12) before you start messing up wi
 ## Deploy
 You can deploy this bot anywhere.
 
-[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy)
+[![Develop on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com//deploy?repository=https://github.com/gbimsath/EvaMaria)
 
 
 <i>**[Watch Deploying Tutorial...](https://youtu.be/1G1XwEOnxxo)**</i>
