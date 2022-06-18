@@ -17,8 +17,6 @@
 
 ## Features
 
-- [x] Auto Filter
-- [x] Manual Filter
 - [x] IMDB
 - [x] Admin Commands
 - [x] Broadcast
