@@ -4,7 +4,6 @@
     "stack": "container",
     "keywords": [
       "telegram",
-      "auto-filter",
       "filter",
       "best",
       "indian",
@@ -15,8 +14,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/EvamariaTG/EvaMaria",
-    "repository": "https://github.com/EvamariaTG/EvaMaria",
+    "website": "https://github.com/gbimsath/EvaMaria",
+    "repository": "https://github.com/gbimsath/EvaMaria",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
