@@ -12,32 +12,32 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = 8657438
-API_HASH = ea8263e0393b6c06d4cf83ca6c5014ad
-BOT_TOKEN = 2134519947:AAHSPyeEQRygAGMm1SL4fvnRGJ-qrskJD2g
+API_ID = "8657438"
+API_HASH = "ea8263e0393b6c06d4cf83ca6c5014ad"
+BOT_TOKEN = "2134519947:AAHSPyeEQRygAGMm1SL4fvnRGJ-qrskJD2g"
 
 # Bot settings
-CACHE_TIME = 300
+CACHE_TIME = "300"
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = https://telegra.ph/file/dd2bfdd6c3f6ca21d9a76.jpg
+PICS = "https://telegra.ph/file/dd2bfdd6c3f6ca21d9a76.jpg"
 
 # Admins, Channels & Users
-ADMINS = 1404096450
-CHANNELS = -1001795828344
+ADMINS = "1404096450"
+CHANNELS = "-1001795828344"
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
-AUTH_USERS = 1404096450
+AUTH_USERS = "1404096450"
 auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = mongodb+srv://imdb:imdb321@imdbbot.ghhs6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-DATABASE_NAME = imdb
-COLLECTION_NAME = MoveHubLK_Files
+DATABASE_URI = "mongodb+srv://imdb:imdb321@imdbbot.ghhs6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+DATABASE_NAME = "imdb"
+COLLECTION_NAME = "MoveHubLK_Files"
 
 # Others
-LOG_CHANNEL = -1001694769451
+LOG_CHANNEL = "-1001694769451"
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TeamEvamaria')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
